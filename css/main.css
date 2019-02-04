@@ -4,3 +4,322 @@
 {
 	display: none;
 }
+body
+{
+	font-family: Arial, sans-serif;
+	background-color: #fff;
+}
+#siteContainer
+{
+	width:1920px;
+	margin: 0 auto;
+}
+
+#mainHeader
+{
+	width:1920px;
+	height: 200px;
+	background-color: #00a651;
+	display: flex;
+	flex-direction: row;
+}
+#logo
+{
+
+	margin-left:153px;
+	margin-top:5px;
+}
+#mainNav ul
+{
+	
+	margin-left:400px;
+	margin-top: 110px;
+	display: flex;
+	flex-direction: row;
+
+}
+
+#mainNav ul li a
+{	
+	font-size: 24px;
+	width: 110px;
+	padding: 18px;
+	text-decoration: none;
+	color: #ffffff;
+	font-family: Helvetica, Arial, sans-serif;
+}
+#mainNav ul li a:hover
+{
+	color: red;
+}
+
+#indexPage
+{
+	width: 1920px;
+	height: 1090px;
+	background: url('../images/homepage_img.jpg');
+	display: flex;
+	flex-direction: column;
+}
+#WelcomeText
+{
+	width: 1150px;
+	height: 90px;
+	font-size:90px;
+	font-family: Andale Mono, Helvetica, sans-serif;
+	color: #fff;
+	text-align:center;
+	margin-top: 185px;
+	margin-left:405px;
+}
+#HPwaterline
+{
+	margin-top:133px;
+	margin-left:690px;
+}
+#IntroText
+{
+	font-size: 48px;
+	font-family: Andale Mono, Helvetica, sans-serif;
+	color: #fff;
+	text-align: center;
+	margin-top:150px;
+
+}
+#indexPage p
+{
+	font-size:48px;
+	font-family: Apple Symbols, Arial, sans-serif;
+	color: #fff;
+	text-align: center;
+	margin-top:70px;
+}
+#aboutPage
+{
+	width: 1920px;
+	height: 1745px;
+	background-color: #ffffff;
+	display: flex;
+	flex-direction: column;
+}
+#aboutPage h1
+{
+	font-size:90px;
+	font-family: Andale Mono, Helvetica, sans-serif;
+	color: #006633;
+	text-align: center;
+	margin-top: 125px;
+	margin-bottom: 40px;
+
+}
+#waterline
+{
+	margin-left:690px;
+	margin-bottom:70px;
+}
+.aboutContent 
+{
+	display:flex;
+	flex-direction: row;
+	margin-left: 150px;
+}
+
+.aboutContent p
+{
+	font-size:48px;
+	width:1390px;
+	height:175px;
+	font-family: Apple Symbols, Arial, sans-serif;
+	color: #006633;
+	margin-left:50px;
+	margin-top: 10px;
+}
+.aboutIcon
+{
+	width:115px;
+	height:115px;
+
+}
+#aboutButton
+{
+	display:flex;
+	flex-direction: row;
+	margin-top: 80px;
+}
+#aboutButton a:hover
+{
+	color:red;
+}
+.greenButton
+{
+	width:355px;
+	height: 87px;
+	background-color: #00a651;
+	font-size: 60px;
+	color:#fff;
+	text-decoration: none;
+	text-align: center;
+	font-family: Apple Symbols, Arial;
+	margin-left: 600px;
+}
+.greyButton
+{
+	width:355px;
+	height: 87px;
+	background-color: #e1eae6;
+	font-size:60px;
+	color:#006633;
+	text-decoration: none;
+	text-align: center;
+	font-family: Apple Symbols, Arial;
+	margin-left: 70px;
+}
+
+#membership
+{
+	width:1920px;
+	height: 340px;
+	display: flex;
+	flex-direction: row;
+	background-color:#555555;
+}
+#membershipText
+{
+	margin-left:100px;
+	width:1220px;
+	display: flex;
+	flex-direction: column;
+}
+#membershipText h2
+{
+	font-size:100px;
+	font-family: Apple Symbols, Arial;
+	color: #fff;
+	margin-top:30px;
+	margin-bottom:30px;
+}
+#membershipText h3
+{
+	font-size:53px;
+	font-family: Apple Symbols, Arial;
+	color: #fff;
+	margin-bottom:20px;
+}
+#membershipText p
+{
+	font-size:44px;
+	font-family: Apple Symbols, Arial;
+	color: #fff;
+}
+
+#membership img
+{
+	width:405px;
+	height:405px;
+	border-radius: 50%;
+	margin-left:70px;
+	margin-bottom:20px;
+}
+/*End of Membership*/
+/*Begin of Events*/
+#eventPage
+{
+	width:1920px;
+	height:2100px;
+	background-color: #ebebeb;
+	display:flex;
+	flex-direction: column;
+}
+#eventPage h1
+{
+
+	margin-top:85px;
+	font-size:90px;
+	font-family: Andale Mono, Helvetica, sans-serif;
+	color: #006633;
+	text-align: center;
+	margin-top: 125px;
+	margin-bottom: 40px;
+}
+#firstEvent
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin: 85px;
+}
+#anotherEvents
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin:85px;
+
+}
+.event
+{
+	width:530px;
+	height:700px;
+	background-color: #e1e1e1;
+	display: flex;
+	flex-direction: column;
+}
+.event h2
+{
+	font-size:32px;
+	color: black;
+	font-family: Myriad Pro, Arial, sans-serif;
+	margin:20px;
+}
+
+.event img
+{
+	width:530px;
+	height: 385px;
+}
+.event p
+{
+	width:490px;
+	height:150px;
+	margin-top:5px;
+	margin-left: 20px;
+	font-size:24px;
+	color: grey;
+	font-family: Myriad Pro, Arial, sans-serif;
+	line-height:35px;
+}
+
+.eventButton
+{
+	width:240px;
+	height:70px;
+	background-color: #00a651;
+	font-size: 48px;
+	color:#fff;
+	text-decoration: none;
+	text-align: center;
+	font-family: Apple Symbols, Arial;
+	margin-left:30px;
+	margin-top:30px;
+	margin-bottom:30px;
+}
+
+#bigEventButton
+{
+	width:500px;
+	height:85px;
+	background-color: #00a651;
+	justify-content: center;
+	margin-left: 700px;
+	font-family: Apple Symbols, Arial;
+	text-decoration: none;
+	color: #fff;
+	font-size:48px;
+	text-align:center;
+}
+
+
+
+
+
+
