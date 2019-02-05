@@ -164,11 +164,12 @@ body
 	font-family: Apple Symbols, Arial;
 	margin-left: 428px;
 		/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#49b17c+0,008a00+55,2e7551+100,002400+100 */
-background: #49b17c; /* Old browsers */
-background: -moz-linear-gradient(top, #49b17c 0%, #008a00 55%, #2e7551 100%, #002400 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(top, #49b17c 0%,#008a00 55%,#2e7551 100%,#002400 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to bottom, #49b17c 0%,#008a00 55%,#2e7551 100%,#002400 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#49b17c', endColorstr='#002400',GradientType=0 ); /* IE6-9 */
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#49b17c+0,2e7551+51,49b17c+100 */
+	background: #49b17c; /* Old browsers */
+	background: -moz-linear-gradient(top, #49b17c 0%, #2e7551 51%, #49b17c 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #49b17c 0%,#2e7551 51%,#49b17c 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #49b17c 0%,#2e7551 51%,#49b17c 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#49b17c', endColorstr='#49b17c',GradientType=0 ); /* IE6-9 */
 }
 .greyButton
 {
@@ -309,12 +310,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#49b17c', end
 	margin-left:25px;
 	margin-top:25px;
 	margin-bottom:25px;
-	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#49b17c+0,008a00+55,2e7551+100,002400+100 */
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#49b17c+0,2e7551+51,49b17c+100 */
 	background: #49b17c; /* Old browsers */
-	background: -moz-linear-gradient(top, #49b17c 0%, #008a00 55%, #2e7551 100%, #002400 100%); /* FF3.6-15 */
-	background: -webkit-linear-gradient(top, #49b17c 0%,#008a00 55%,#2e7551 100%,#002400 100%); /* Chrome10-25,Safari5.1-6 */
-	background: linear-gradient(to bottom, #49b17c 0%,#008a00 55%,#2e7551 100%,#002400 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#49b17c', endColorstr='#002400',GradientType=0 ); /* IE6-9 */
+	background: -moz-linear-gradient(top, #49b17c 0%, #2e7551 51%, #49b17c 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #49b17c 0%,#2e7551 51%,#49b17c 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #49b17c 0%,#2e7551 51%,#49b17c 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#49b17c', endColorstr='#49b17c',GradientType=0 ); /* IE6-9 */
 }
 
 #bigEventButton
@@ -331,14 +332,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#49b17c', end
 	text-align:center;
 	margin-top: 65px;
 	margin-bottom:45px;
-	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#49b17c+0,008a00+55,2e7551+100,002400+100 */
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#49b17c+0,2e7551+51,49b17c+100 */
 	background: #49b17c; /* Old browsers */
-	background: -moz-linear-gradient(top, #49b17c 0%, #008a00 55%, #2e7551 100%, #002400 100%); /* FF3.6-15 */
-	background: -webkit-linear-gradient(top, #49b17c 0%,#008a00 55%,#2e7551 100%,#002400 100%); /* Chrome10-25,Safari5.1-6 */
-	background: linear-gradient(to bottom, #49b17c 0%,#008a00 55%,#2e7551 100%,#002400 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#49b17c', endColorstr='#002400',GradientType=0 ); /* IE6-9 */
+	background: -moz-linear-gradient(top, #49b17c 0%, #2e7551 51%, #49b17c 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #49b17c 0%,#2e7551 51%,#49b17c 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #49b17c 0%,#2e7551 51%,#49b17c 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#49b17c', endColorstr='#49b17c',GradientType=0 ); /* IE6-9 */
 }
-
 
 
 
