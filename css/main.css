@@ -11,29 +11,29 @@ body
 }
 #siteContainer
 {
-	width:1920px;
+	width:1366px;
 	margin: 0 auto;
 }
 
 #mainHeader
 {
-	width:1920px;
-	height: 200px;
-	background-color: #00a651;
+	width:1366px;
+	height: 139px;
+	background-color: #2e7551;
 	display: flex;
 	flex-direction: row;
 }
 #logo
 {
 
-	margin-left:153px;
+	margin-left:100px;
 	margin-top:5px;
 }
 #mainNav ul
 {
 	
-	margin-left:400px;
-	margin-top: 110px;
+	margin-left:300px;
+	margin-top: 62px;
 	display: flex;
 	flex-direction: row;
 
@@ -41,8 +41,8 @@ body
 
 #mainNav ul li a
 {	
-	font-size: 24px;
-	width: 110px;
+	font-size: 17px;
+	width: 90px;
 	padding: 18px;
 	text-decoration: none;
 	color: #ffffff;
@@ -55,89 +55,89 @@ body
 
 #indexPage
 {
-	width: 1920px;
-	height: 1090px;
+	width: 1366px;
+	height: 783px;
 	background: url('../images/homepage_img.jpg');
 	display: flex;
 	flex-direction: column;
 }
 #WelcomeText
 {
-	width: 1150px;
-	height: 90px;
-	font-size:90px;
+	width: 847px;
+	height: 70px;
+	font-size:64px;
 	font-family: Andale Mono, Helvetica, sans-serif;
 	color: #fff;
 	text-align:center;
-	margin-top: 185px;
-	margin-left:405px;
+	margin-top: 150px;
+	margin-left:280px;
 }
 #HPwaterline
 {
-	margin-top:133px;
-	margin-left:690px;
+	margin-top:95px;
+	margin-left:425px;
 }
 #IntroText
 {
-	font-size: 48px;
+	font-size: 34px;
 	font-family: Andale Mono, Helvetica, sans-serif;
 	color: #fff;
 	text-align: center;
-	margin-top:150px;
+	margin-top:75px;
 
 }
 #indexPage p
 {
-	font-size:48px;
+	font-size:34px;
 	font-family: Apple Symbols, Arial, sans-serif;
 	color: #fff;
 	text-align: center;
-	margin-top:70px;
+	margin-top:50px;
 }
 #aboutPage
 {
-	width: 1920px;
-	height: 1745px;
+	width: 1366px;
+	height: 1250px;
 	background-color: #ffffff;
 	display: flex;
 	flex-direction: column;
 }
 #aboutPage h1
 {
-	font-size:90px;
+	font-size:68px;
 	font-family: Andale Mono, Helvetica, sans-serif;
 	color: #006633;
 	text-align: center;
-	margin-top: 125px;
+	margin-top: 73px;
 	margin-bottom: 40px;
 
 }
 #waterline
 {
-	margin-left:690px;
+	margin-left:480px;
 	margin-bottom:70px;
 }
 .aboutContent 
 {
 	display:flex;
 	flex-direction: row;
-	margin-left: 150px;
+	margin-left: 100px;
 }
 
 .aboutContent p
 {
-	font-size:48px;
+	font-size:37px;
 	width:1390px;
 	height:175px;
 	font-family: Apple Symbols, Arial, sans-serif;
 	color: #006633;
-	margin-left:50px;
+	margin-left:45px;
 	margin-top: 10px;
 }
 .aboutIcon
 {
-	width:115px;
-	height:115px;
+	width:100px;
+	height:100px;
 
 }
 #aboutButton
@@ -145,6 +145,7 @@ body
 	display:flex;
 	flex-direction: row;
 	margin-top: 80px;
+	margin-bottom:90px;
 }
 #aboutButton a:hover
 {
@@ -152,93 +153,91 @@ body
 }
 .greenButton
 {
-	width:355px;
-	height: 87px;
-	background-color: #00a651;
-	font-size: 60px;
+	width:250px;
+	height: 60px;
+	background-color: #2e7551;
+	font-size: 42px;
 	color:#fff;
 	text-decoration: none;
 	text-align: center;
 	font-family: Apple Symbols, Arial;
-	margin-left: 600px;
+	margin-left: 428px;
 }
 .greyButton
 {
-	width:355px;
-	height: 87px;
+	width:250px;
+	height: 60px;
 	background-color: #e1eae6;
-	font-size:60px;
+	font-size:42px;
 	color:#006633;
 	text-decoration: none;
 	text-align: center;
 	font-family: Apple Symbols, Arial;
-	margin-left: 70px;
+	margin-left: 55px;
 }
 
 #membership
 {
-	width:1920px;
-	height: 340px;
+	width:1366px;
+	height: 260px;
 	display: flex;
 	flex-direction: row;
-	background-color:#555555;
+	background-color:#999999;
 }
 #membershipText
 {
-	margin-left:100px;
-	width:1220px;
+	margin-left:60px;
+	width:860px;
 	display: flex;
 	flex-direction: column;
 }
 #membershipText h2
 {
-	font-size:100px;
+	font-size:72px;
 	font-family: Apple Symbols, Arial;
 	color: #fff;
-	margin-top:30px;
-	margin-bottom:30px;
+	margin-top:10px;
+	margin-bottom:20px;
 }
 #membershipText h3
 {
-	font-size:53px;
+	font-size:38px;
 	font-family: Apple Symbols, Arial;
 	color: #fff;
-	margin-bottom:20px;
+	margin-bottom:10px;
 }
 #membershipText p
 {
-	font-size:44px;
+	font-size:34px;
 	font-family: Apple Symbols, Arial;
 	color: #fff;
 }
 
 #membership img
 {
-	width:405px;
-	height:405px;
+	width:270px;
+	height:270px;
 	border-radius: 50%;
-	margin-left:70px;
+	margin-left:100px;
 	margin-bottom:20px;
 }
 /*End of Membership*/
 /*Begin of Events*/
 #eventPage
 {
-	width:1920px;
-	height:2100px;
+	width:1366px;
+	height:1460px;
 	background-color: #ebebeb;
 	display:flex;
 	flex-direction: column;
 }
 #eventPage h1
 {
-
-	margin-top:85px;
-	font-size:90px;
+	margin-top:55px;
+	font-size:64px;
 	font-family: Andale Mono, Helvetica, sans-serif;
 	color: #006633;
 	text-align: center;
-	margin-top: 125px;
 	margin-bottom: 40px;
 }
 #firstEvent
@@ -246,27 +245,28 @@ body
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-	margin: 85px;
+	margin-left: 50px;
+	margin-right: 50px;
 }
 #anotherEvents
 {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-	margin:85px;
+	margin:50px;
 
 }
 .event
 {
-	width:530px;
-	height:700px;
+	width:380px;
+	height:510px;
 	background-color: #e1e1e1;
 	display: flex;
 	flex-direction: column;
 }
 .event h2
 {
-	font-size:32px;
+	font-size:23px;
 	color: black;
 	font-family: Myriad Pro, Arial, sans-serif;
 	margin:20px;
@@ -274,48 +274,50 @@ body
 
 .event img
 {
-	width:530px;
-	height: 385px;
+	width:380px;
+	height: 278px;
 }
 .event p
 {
-	width:490px;
-	height:150px;
+	width:341px;
+	height:95px;
 	margin-top:5px;
 	margin-left: 20px;
-	font-size:24px;
+	font-size:17px;
 	color: grey;
 	font-family: Myriad Pro, Arial, sans-serif;
-	line-height:35px;
+	line-height:23px;
 }
 
 .eventButton
 {
-	width:240px;
-	height:70px;
-	background-color: #00a651;
-	font-size: 48px;
+	width:175px;
+	height:49px;
+	background-color: #2e7551;
+	font-size: 34px;
 	color:#fff;
 	text-decoration: none;
 	text-align: center;
 	font-family: Apple Symbols, Arial;
-	margin-left:30px;
-	margin-top:30px;
-	margin-bottom:30px;
+	margin-left:25px;
+	margin-top:25px;
+	margin-bottom:25px;
 }
 
 #bigEventButton
 {
-	width:500px;
-	height:85px;
-	background-color: #00a651;
+	width:380px;
+	height:65px;
+	background-color: #2e7551;
 	justify-content: center;
-	margin-left: 700px;
+	margin-left: 485px;
 	font-family: Apple Symbols, Arial;
 	text-decoration: none;
 	color: #fff;
-	font-size:48px;
+	font-size:38px;
 	text-align:center;
+	margin-top: 65px;
+	margin-bottom:45px;
 }
 
 
