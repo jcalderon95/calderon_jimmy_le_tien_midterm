@@ -710,6 +710,74 @@ body
 
 /*========== END SOCIAL MEDIA =========*/
 
+/* =========== FOOTER =============*/
+
+.footerCon
+{
+	background-color: #303030;
+	padding-top: 50px;
+	padding-bottom: 80px;
+}
+
+footer
+{
+	width: 1115px;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.footerNavCon, .footerLinks
+{
+	width: 250px;
+}
+
+.footerLinks
+{
+	display: flex;
+	flex-direction: column;
+}
+
+.footerNavCon h3, .footerLinks h3
+{
+	font-size: 30px;
+	font-family: Apple Symbols, Arial, sans-serif;
+	text-align: center;
+	color: #717172;
+	border-bottom: solid 2px #717172;
+	padding-bottom: 5px;
+	margin-bottom: 15px;
+}
+
+
+
+.footerLogo
+{
+	padding-top: 20px;
+	width: 185px;
+	height: 165px;
+}
+
+
+
+
+.footerLinks a
+{
+	font-size: 25px;
+	font-family: Apple Symbols, Arial, sans-serif;
+	color: #717172;
+	text-decoration: none;
+	text-align: center;
+	padding-top: 10px;
+}
+
+
+
+
+
+
+/*========= END FOOTER ===========*/
 
 
 
