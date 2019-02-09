@@ -238,6 +238,7 @@ body
 	text-decoration: none;
 	text-align: center;
 	font-family: Apple Symbols, Arial;
+	border-top: solid 1px #b1d1c1;
 }
 
 /*=========End About Section=========*/
@@ -341,7 +342,52 @@ body
 	margin-bottom: 150px;
 }
 
+.projects
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	margin: 0 auto;
+	width: 1300px;
+}
 
+.projectsDesc
+{
+	width: 375px;
+	margin-bottom: 150px;
+}
+
+.projectsDesc img
+{
+	margin-left: 50px;
+	margin-bottom: 50px;
+	height: 275px;
+}
+
+.projectsDesc h3
+{
+	height: 60px;
+	font-family: Apple Symbols, Arial, sans-serif;
+	font-size: 35px;
+	color: #717172;
+	text-align: center;
+	margin-bottom: 60px;
+}
+
+.projectsDesc a
+{
+	color: #03552a;
+	font-family: Apple Symbols, Arial, sans-serif;
+	font-size: 35px;
+	text-decoration: none;
+	margin-left: 100px;
+	background-color: #e1eae6;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	border-top: solid 1px #b1d1c1;
+}
 
 
 /*===========End Of projects Section=======*/
