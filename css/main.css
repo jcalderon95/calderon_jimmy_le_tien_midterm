@@ -4,96 +4,139 @@
 {
 	display: none;
 }
+
 body
 {
 	font-family: Arial, sans-serif;
 	background-color: #fff;
 }
-#siteContainer
+
+/*#siteContainer
 {
 	width:1366px;
 	margin: 0 auto;
+}*/
+
+.headerCon
+{
+
+	background: #2e7551;
+	background: -moz-linear-gradient(top, #2e7551 1%, #35845b 50%, #2e7551 100%); 
+	background: -webkit-linear-gradient(top, #2e7551 1%,#35845b 50%,#2e7551 100%); 
+	background: linear-gradient(to bottom, #2e7551 1%,#35845b 50%,#2e7551 100%); 
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2e7551', endColorstr='#2e7551',GradientType=0 );
+	
 }
 
 #mainHeader
 {
-	width:1366px;
-	height: 139px;
-	background-color: #2e7551;
+	width: 1080px;
 	display: flex;
 	flex-direction: row;
+	margin: 0 auto;
+
 }
+
+
 #logo
 {
 
-	margin-left:100px;
-	margin-top:5px;
+
+	margin-top:12px;
+
 }
+
 #mainNav ul
 {
 	
 	margin-left:300px;
-	margin-top: 62px;
+	margin-top: 50px;
 	display: flex;
 	flex-direction: row;
 
 }
+
+
 
 #mainNav ul li a
 {	
 	font-size: 17px;
 	width: 90px;
-	padding: 18px;
+	margin-left: 30px;
+/*	padding: 18px;*/
 	text-decoration: none;
-	color: #ffffff;
-	font-family: Helvetica, Arial, sans-serif;
+	color: #f8f8f8;
+	font-family: 'Montserrat' ,Helvetica, Arial, sans-serif;
+	transition: all .3s ease-in;
 }
+
 #mainNav ul li a:hover
 {
-	color: red;
+	color: #00c15e;
+	border-bottom: solid 3px;
+	padding-bottom: 8px;
+/*	color: red;*/
 }
 
 #indexPage
 {
-	width: 1366px;
-	height: 783px;
-	background: url('../images/homepage_img.jpg');
+/*	width: 1366px;
+	height: 783px;*/
+	background: url('../images/homepage_img.jpg') no-repeat center;
 	display: flex;
 	flex-direction: column;
 }
+
 #WelcomeText
 {
 	width: 847px;
 	height: 70px;
 	font-size:64px;
-	font-family: Andale Mono, Helvetica, sans-serif;
+	font-family: 'Montserrat' ,Andale Mono, Helvetica, sans-serif;
+	font-weight: bold;
 	color: #fff;
 	text-align:center;
-	margin-top: 150px;
-	margin-left:280px;
+	margin: 0 auto;
+	margin-top: 120px;
+	color: #ededed;
+
 }
-#HPwaterline
+
+.HPwaterline
+{	
+	margin: 0 auto;
+	margin-top:50px;
+/*	margin-left:425px;*/
+}
+
+.HPwaterline2
 {
-	margin-top:95px;
-	margin-left:425px;
+	margin: 0 auto;
+	margin-top: 50px;
+	margin-bottom: 100px;
 }
+
 #IntroText
 {
 	font-size: 34px;
-	font-family: Andale Mono, Helvetica, sans-serif;
+	font-family: 'Montserrat',Andale Mono, Helvetica, sans-serif;
 	color: #fff;
 	text-align: center;
 	margin-top:75px;
+	color: #ededed;
 
 }
+
 #indexPage p
 {
 	font-size:34px;
 	font-family: Apple Symbols, Arial, sans-serif;
-	color: #fff;
+	color: #ededed;
 	text-align: center;
 	margin-top:50px;
+
 }
+
 #aboutPage
 {
 	width: 1366px;
@@ -112,7 +155,8 @@ body
 	margin-bottom: 40px;
 
 }
-#waterline
+
+.waterline
 {
 	margin-left:480px;
 	margin-bottom:70px;
