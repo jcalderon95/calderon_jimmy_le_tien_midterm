@@ -4,44 +4,53 @@
   <meta charset="UTF-8">
   <title> Anglers Associations </title> 
   <!-- Link to reset.css first -->
-  <link rel="stylesheet" href="css/reset.css" type="text/css">   
+  <link rel="stylesheet" href="css/reset.css" type="text/css">  
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:500" rel="stylesheet"> 
   <link rel="stylesheet" href="css/main.css" type="text/css">  
 </head>
 
 <body>
 	<div id="siteContainer">
-		<h1 class="hidden">TRAA Website</h1>
-		<header id="mainHeader">
-			<div id="logo">
-				<img src="images/logo.png" alt="Anglers Logo" width="140" height="130">
-			</div>
-			<nav id="mainNav">
-				<h2 class="hidden">Main Navigation</h2>
-				<ul>
-					<li><a href="#">HOME</a></li>
-					<li><a href="#">ABOUT</a></li>
-					<li><a href="#">EVENTS</a></li>
-					<li><a href="#">PROJECTS</a></li>
-					<li><a href="#">NEWSLETTER</a></li>
-					<li><a href="#">CONTACT</a></li>
-				</ul>
-			</nav>		
-		</header>
-<!-- Begin of Index -->
+		<h1 class="hidden">Thames River Association</h1>
+
+		<div class="headerCon">
+			<header id="mainHeader">
+				<div id="logo">
+					<a href="index.html">
+						<img src="images/logo.png" alt="Anglers Logo" width="100" height="90" >
+					</a>
+				</div>
+				<nav id="mainNav">
+					<h2 class="hidden">Main Navigation</h2>
+					<ul>
+						<li><a href="#">HOME</a></li>
+						<li><a href="#">ABOUT</a></li>
+						<li><a href="#">EVENTS</a></li>
+						<li><a href="#">PROJECTS</a></li>
+						<li><a href="#">NEWSLETTER</a></li>
+						<li><a href="#">CONTACT</a></li>
+					</ul>
+				</nav>		
+			</header>
+		</div>
+
+<!------------ Begin of Index -------------->
+
 		<section id="indexPage">
 			<h2 class="hidden">TRAA Index</h2>
-			<h1 id="WelcomeText">Welcome to the TRAA</h1>
-			<img id="HPwaterline" src="images/waterline.png" width="545" height="25">
+			<h2 id="WelcomeText">Welcome to the TRAA</h2>
+			<img class="HPwaterline" src="images/waterline.png" width="545" height="20" alt="Water Line">
 			<h2 id="IntroText">Dedication Today for Tomorrow</h2>
 			<p>“For the enhancement, protection and promotion of a viable,<br>multi-species fishery within the Thames River watershed.”</p>
-			<img id="HPwaterline" src="images/waterline.png" width="545" height="25">
+			<img class="HPwaterline2" src="images/waterline.png" width="545" height="20">
 		</section>
-<!-- End of Index -->
 
-<!-- Begin of About page -->
+<!--------------------- End of Index --------------->
+
+<!---------------------- Begin of About page --------->
 		<section id="aboutPage">
 			<h1>About the TRAA</h1>
-			<img id="waterline" src="images/waterline.png" width="395" height="15">
+			<img class="waterline" src="images/waterline.png" width="395" height="15" alt="Water Line">
 			<section class="aboutContent">
 				<h2 class="hidden">About content</h2>
 				<img class="aboutIcon" src="images/fish-icon.png" width="115" height="115">
@@ -85,8 +94,9 @@
 				<a href="#" class="greyButton">See more</a>
 			</div>
 		</section>
-<!-- End of About Page -->
-<!-- Begin of Membership -->
+
+<!---------------------- End of About Page --------------->
+<!------------------- Begin of Membership ------------->
 		<section id="membership">
 			<h1 class="hidden">Membership</h1>
 			<div id="membershipText">
@@ -96,11 +106,12 @@
 			</div>
 			<img src="images/membership-icon.png" alt="membership icon" width="405" height="405">
 		</section>
-<!-- End of Membership -->
-<!-- Begin of Events page -->
+<!------------------- End of Membership ---------------->
+
+<!----------------- Begin of Events page -------------->
 		<section id="eventPage">
 			<h1>Events</h1>
-			<img id="waterline" src="images/waterline.png" width="395" height="15">
+			<img class="waterline" src="images/waterline.png" width="395" height="15">
 			<div id="firstEvent">
 				<section class="event">
 					<img src="images/upcoming-img.jpg" alt="Upcoming image">
@@ -135,7 +146,7 @@
 				<section class="event">
 					<img src="images/stream-habitat.jpg" alt="Stream-habitat image">
 					<h2>Stream Habitat Work Party</h2>
-					<p>A few TRAA members cleared a number of fallen trees and other blockages on October 13th. Click the link to see a video make by Dan Shinkelshoek.</p>
+					<p>A few TRAA members cleared a number of fallen= trees and other blockages on October 13th. Click the link to see a video make by Dan Shinkelshoek.</p>
 					<a href="#" class="eventButton">See more</a>
 				</section>
 
@@ -148,7 +159,7 @@
 			</div>
 			<a href="#" id="bigEventButton">Explore our past events</a>
 		</section>
-<!-- End of Events Page-->
+<!--------------- End of Events Page -------------->
 	</div>
     <script src="js/main.js"></script>
 </body>
