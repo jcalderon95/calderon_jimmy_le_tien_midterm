@@ -209,8 +209,8 @@ body
 
 .greenButton
 {
-	padding-left: 50px;
-	padding-right: 50px;
+	padding-left: 30px;
+	padding-right: 30px;
 	padding-bottom: 15px;
 	padding-top: 15px;
 	margin-right: 30px;
@@ -228,8 +228,8 @@ body
 
 .greyButton
 {
-	padding-left: 50px;
-	padding-right: 50px;
+	padding-left: 30px;
+	padding-right: 30px;
 	padding-top: 15px;
 	padding-bottom: 15px;
 	margin-left: 30px;
@@ -251,14 +251,16 @@ body
 	height: 260px;
 	display: flex;
 	flex-direction: row;
+	margin-top: 40px;
 	background-color:#999999;
+
 }
 
 #membershipText
 {
 	margin: 0 auto;
 /*	margin-left:60px;*/
-	width:860px;
+	width:720px;
 	display: flex;
 	flex-direction: column;
 }
@@ -302,21 +304,29 @@ body
 /*============== Begin of Events ==========*/
 #eventPage
 {
-	width:1366px;
-	height:1460px;
+/*	width:1366px;
+	height:1460px;*/
 	background-color: #ebebeb;
 	display:flex;
 	flex-direction: column;
 }
-#eventPage h1
+
+#eventPage h2
 {
-	margin-top:55px;
+	margin-top:130px;
 	font-size:64px;
-	font-family: Andale Mono, Helvetica, sans-serif;
-	color: #006633;
+	font-family: 'Montserrat' ,Andale Mono, Helvetica, sans-serif;
+	color: #00a653;
 	text-align: center;
 	margin-bottom: 40px;
 }
+
+.waterlineEvent
+{
+	margin: 0 auto;
+	margin-bottom: 100px;
+}
+
 #firstEvent
 {
 	display: flex;
@@ -325,6 +335,7 @@ body
 	margin-left: 50px;
 	margin-right: 50px;
 }
+
 #anotherEvents
 {
 	display: flex;
@@ -333,6 +344,7 @@ body
 	margin:50px;
 
 }
+
 .event
 {
 	width:380px;
@@ -341,10 +353,11 @@ body
 	display: flex;
 	flex-direction: column;
 }
-.event h2
+
+.event h3
 {
 	font-size:23px;
-	color: black;
+	color: #474747;
 	font-family: Myriad Pro, Arial, sans-serif;
 	margin:20px;
 }
@@ -354,6 +367,7 @@ body
 	width:380px;
 	height: 278px;
 }
+
 .event p
 {
 	width:341px;
@@ -387,27 +401,33 @@ body
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#49b17c', endColorstr='#49b17c',GradientType=0 ); /* IE6-9 */
 }
 
+.eventButtonCon
+{
+	margin: 0 auto;
+	margin-top: 50px;
+	margin-bottom: 80px;
+}
+
 #bigEventButton
 {
-	width:380px;
-	height:65px;
-	background-color: #2e7551;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
 	justify-content: center;
-	margin-left: 485px;
 	font-family: Apple Symbols, Arial;
 	text-decoration: none;
 	color: #fff;
 	font-size:38px;
 	text-align:center;
-	margin-top: 65px;
-	margin-bottom:45px;
-	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#49b17c+0,2e7551+51,49b17c+100 */
-	background: #49b17c; /* Old browsers */
-	background: -moz-linear-gradient(top, #49b17c 0%, #2e7551 51%, #49b17c 100%); /* FF3.6-15 */
-	background: -webkit-linear-gradient(top, #49b17c 0%,#2e7551 51%,#49b17c 100%); /* Chrome10-25,Safari5.1-6 */
-	background: linear-gradient(to bottom, #49b17c 0%,#2e7551 51%,#49b17c 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#49b17c', endColorstr='#49b17c',GradientType=0 ); /* IE6-9 */
+	background: #49b17c; 
+	background: -moz-linear-gradient(top, #49b17c 0%, #2e7551 51%, #49b17c 100%); 
+	background: -webkit-linear-gradient(top, #49b17c 0%,#2e7551 51%,#49b17c 100%); 
+	background: linear-gradient(to bottom, #49b17c 0%,#2e7551 51%,#49b17c 100%); 
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#49b17c', endColorstr='#49b17c',GradientType=0 ); 
 }
+
+
 
 
 
