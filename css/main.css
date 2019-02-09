@@ -148,7 +148,6 @@ body
 	text-align: center;
 	margin-top: 73px;
 	margin-bottom: 30px;
-	/*font-weight: bold;*/
 	letter-spacing: 2px;
 
 }
@@ -301,11 +300,56 @@ body
 
 /* ===========End of Membership===========*/
 
+/*============== Projects=============*/
+
+.projectsCon
+{
+	display: flex;
+	flex-direction: column;
+}
+
+.projectsHeader
+{
+	width: 1010px;
+	margin: 0 auto;
+}
+
+.projectsCon h2
+{
+	font-size: 65px;
+	font-family: 'Montserrat',Andale Mono, Helvetica, sans-serif;
+	color: #00a651;
+	text-align: center;
+	margin-top: 130px;
+	margin-bottom: 40px;
+}
+
+.waterlineProjects
+{	
+	
+	margin-left: 310px;
+	margin-bottom: 60px;
+}
+
+.projectsInfo
+{
+	font-size: 28px;
+	font-family: Apple Symbols, Arial, sans-serif;
+	color: #717172;
+	line-height: 41px;
+	text-align: center;
+	margin-bottom: 150px;
+}
+
+
+
+
+/*===========End Of projects Section=======*/
+
 /*============== Begin of Events ==========*/
 #eventPage
 {
-/*	width:1366px;
-	height:1460px;*/
+
 	background-color: #ebebeb;
 	display:flex;
 	flex-direction: column;
@@ -329,19 +373,23 @@ body
 
 #firstEvent
 {
+	width: 1325px;
 	display: flex;
 	flex-direction: row;
-	justify-content: space-between;
+	justify-content: space-around;
 	margin-left: 50px;
 	margin-right: 50px;
+	margin: 0 auto;
 }
 
 #anotherEvents
 {
+	width: 1325px;
+	margin: 0 auto;
 	display: flex;
 	flex-direction: row;
-	justify-content: space-between;
-	margin:50px;
+	justify-content: space-around;
+	margin-top: 100px;
 
 }
 
