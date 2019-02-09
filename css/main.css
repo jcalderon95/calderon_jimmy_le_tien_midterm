@@ -238,6 +238,7 @@ body
 	text-decoration: none;
 	text-align: center;
 	font-family: Apple Symbols, Arial;
+	border-top: solid 1px #b1d1c1;
 }
 
 /*=========End About Section=========*/
@@ -341,7 +342,52 @@ body
 	margin-bottom: 150px;
 }
 
+.projects
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	margin: 0 auto;
+	width: 1320px;
+}
 
+.projectsDesc
+{
+	width: 375px;
+	margin-bottom: 150px;
+}
+
+.projectsDesc img
+{
+	margin-left: 50px;
+	margin-bottom: 50px;
+	height: 275px;
+}
+
+.projectsDesc h3
+{
+	height: 60px;
+	font-family: Apple Symbols, Arial, sans-serif;
+	font-size: 35px;
+	color: #717172;
+	text-align: center;
+	margin-bottom: 60px;
+}
+
+.projectsDesc a
+{
+	color: #03552a;
+	font-family: Apple Symbols, Arial, sans-serif;
+	font-size: 35px;
+	text-decoration: none;
+	margin-left: 100px;
+	background-color: #e1eae6;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	border-top: solid 1px #b1d1c1;
+}
 
 
 /*===========End Of projects Section=======*/
@@ -475,6 +521,174 @@ body
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#49b17c', endColorstr='#49b17c',GradientType=0 ); 
 }
 
+/* ============= END EVENTS SECTION ========*/
+
+/*=========== CONTACT SECTION =============*/
+
+.contacCon
+{
+	background-color: #e1eae6;
+	padding-top: 70px;
+	padding-bottom: 140px;
+}
+
+.contact
+{
+	width: 1120px;
+	margin: 0 auto;
+}
+
+.contact h2
+{
+	font-size: 63px;
+	text-align: center;
+	color: #00a653;
+	font-family: 'Montserrat' ,Andale Mono, Helvetica, sans-serif;
+	letter-spacing: 1px;
+	margin-bottom: 25px;
+}
+
+.contact img
+{
+	margin-left: 365px;
+	margin-bottom: 80px;
+}
+
+.contactInfo
+{
+	width: 800px;
+	margin: 0 auto;
+	font-family: Apple Symbols, Arial, sans-serif;
+	font-size: 30px;
+	color: #717172;
+	text-align: center;
+	letter-spacing: 1px;
+	line-height: 35px;
+	margin-bottom: 150px;
+}
+
+.contact h3
+{
+	font-size: 40px;
+	color: #00a653;
+	font-family: 'Montserrat' ,Andale Mono, Helvetica, sans-serif;
+	text-align: center;
+	letter-spacing: 1px;
+	margin-bottom: 60px;
+}
+
+.contactMeeting
+{
+	width: 960px;
+	margin: 0 auto;
+	font-size: 26px;
+	font-family: Apple Symbols, Arial, sans-serif;
+	color: #717172;
+	text-align: center;
+	line-height: 35px;
+	letter-spacing: 1px;
+	padding-bottom: 130px;
+}
+
+.form
+{
+	background-color: #fff;
+	width: 920px;
+	margin: 0 auto;
+	padding-top: 65px;
+	/*margin-bottom: 140px;*/
+}
+
+.form h3
+{
+	font-size: 35px;
+	font-family: Apple Symbols, Arial, sans-serif;
+	color: #00a653;
+	width: 720px;
+	border-bottom: solid 1px #ececec;
+	margin: 0 auto;
+	text-align: left;
+	padding-left: 20px;
+	padding-bottom: 10px;
+	margin-bottom: 45px;
+}
+
+#contactForm
+{
+	width: 720px;
+	margin: 0 auto;
+}
+
+.inputCon1, .inputCon2
+{
+	display: flex;
+	flex-direction: row;
+	margin: 0 auto;
+	justify-content: space-between;
+}
+
+.inputCon2
+{
+	margin-top: 35px;
+	margin-bottom: 35px;
+}
+
+#name, #email, #phone, #subject
+{
+	width: 345px;
+	height: 55px;
+	height: 60px;
+	border: solid 1px #aeaeae;
+	background: #fefefe; 
+	background: -moz-linear-gradient(-45deg, #fefefe 0%, #f2f2f2 100%); 
+	background: -webkit-linear-gradient(-45deg, #fefefe 0%,#f2f2f2 100%); 
+	background: linear-gradient(135deg, #fefefe 0%,#f2f2f2 100%); 
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fefefe', endColorstr='#f2f2f2',GradientType=1 );
+
+	box-shadow: 0 1px 3px rgba(0,0,0,0.15) inset;
+
+}
+
+::placeholder
+{
+	font-size: 20px;
+	color: #aeaeae;
+	font-family: Myriad Pro ,Apple Symbols, Arial, sans-serif;		/*box-shadow: 0 1px 1px rgba(0,0,0,0.15) inset;*/
+	padding-top: 25px;
+	padding-left: 10px;
+}
+
+#message
+{
+	width: 720px;
+	margin-bottom: 40px;
+	border: solid 1px #aeaeae;
+	background: #fefefe; 
+	background: -moz-linear-gradient(-45deg, #fefefe 0%, #f2f2f2 100%); 
+	background: -webkit-linear-gradient(-45deg, #fefefe 0%,#f2f2f2 100%); 
+	background: linear-gradient(135deg, #fefefe 0%,#f2f2f2 100%); 
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fefefe', endColorstr='#f2f2f2',GradientType=1 );
+	box-shadow: 0 1px 3px rgba(0,0,0,0.15) inset;
+
+}
+
+#submit
+{
+	margin-bottom: 80px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	background-color: #00a651;	
+	color: #ffffff;
+	font-size: 30px;
+	text-transform: uppercase;
+	font-family: Myriad Pro ,Apple Symbols, Arial, sans-serif;		/*box-shadow: 0 1px 1px rgba(0,0,0,0.15) inset;*/
+
+}
+
+
+/* ============== END CONTACT SECTION ========*/
 
 
 
