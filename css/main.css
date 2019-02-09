@@ -348,7 +348,7 @@ body
 	flex-direction: row;
 	justify-content: space-evenly;
 	margin: 0 auto;
-	width: 1300px;
+	width: 1320px;
 }
 
 .projectsDesc
@@ -521,6 +521,84 @@ body
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#49b17c', endColorstr='#49b17c',GradientType=0 ); 
 }
 
+/* ============= END EVENTS SECTION ========*/
+
+/*=========== CONTACT SECTION =============*/
+
+.contacCon
+{
+	background-color: #e1eae6;
+	padding-top: 70px;
+}
+
+.contact
+{
+	width: 1120px;
+	margin: 0 auto;
+}
+
+.contact h2
+{
+	font-size: 63px;
+	text-align: center;
+	color: #00a653;
+	font-family: 'Montserrat' ,Andale Mono, Helvetica, sans-serif;
+	letter-spacing: 1px;
+	margin-bottom: 25px;
+}
+
+.contact img
+{
+	margin-left: 365px;
+	margin-bottom: 80px;
+}
+
+.contactInfo
+{
+	width: 800px;
+	margin: 0 auto;
+	font-family: Apple Symbols, Arial, sans-serif;
+	font-size: 30px;
+	color: #717172;
+	text-align: center;
+	letter-spacing: 1px;
+	line-height: 35px;
+	margin-bottom: 150px;
+}
+
+.contact h3
+{
+	font-size: 40px;
+	color: #00a653;
+	font-family: 'Montserrat' ,Andale Mono, Helvetica, sans-serif;
+	text-align: center;
+	letter-spacing: 1px;
+	margin-bottom: 60px;
+}
+
+.contactMeeting
+{
+	width: 960px;
+	margin: 0 auto;
+	font-size: 26px;
+	font-family: Apple Symbols, Arial, sans-serif;
+	color: #717172;
+	text-align: center;
+	line-height: 35px;
+	letter-spacing: 1px;
+	padding-bottom: 130px;
+}
+
+.form
+{
+	background-color: #fff;
+	width: 920px;
+	margin: 0 auto;
+}
+
+
+
+/* ============== END CONTACT SECTION ========*/
 
 
 
