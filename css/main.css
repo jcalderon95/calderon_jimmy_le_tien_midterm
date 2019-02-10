@@ -690,8 +690,109 @@ body
 
 /* ============== END CONTACT SECTION ========*/
 
+/*========= SOCIAL MEDIA ========-====*/
+
+.socialMediaCon
+{
+	background-color: #3e3e3e;
+}
+
+.socialMedia
+{
+	width: 225px;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+/*========== END SOCIAL MEDIA =========*/
+
+/* =========== FOOTER =============*/
+
+.footerCon
+{
+	background-color: #303030;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+footer
+{
+	width: 1115px;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.footerNavCon, .footerLinks
+{
+	width: 250px;
+}
+
+.footerLinks
+{
+	display: flex;
+	flex-direction: column;
+}
+
+.footerNavCon h3, .footerLinks h3
+{
+	font-size: 30px;
+	font-family: Apple Symbols, Arial, sans-serif;
+	text-align: center;
+	color: #717172;
+	border-bottom: solid 2px #717172;
+	padding-bottom: 5px;
+	margin-bottom: 15px;
+}
+
+.footerNav ul li , .footerLinks ul li
+{	
+	text-align: center;
+	margin-bottom: 15px;
+	font-family: Apple Symbols, Arial, sans-serif;
+	font-size: 20px;
+}
+
+.footerNav ul li a, .footerLinks ul li a
+{
+	color: #717172;
+	text-decoration: none;
+	font-weight: bold;
+	transition: all .3s ease-in;
+	font-size: 20px;
+
+}
+
+.footerNav ul li a:hover , .footerLinks ul li a:hover
+{
+	color: #00c15e;
+	border-bottom: solid 3px;
+	padding-bottom: 3px;
+}
 
 
+.footerLogo
+{
+	padding-top: 20px;
+	width: 185px;
+	height: 165px;
+}
+
+
+
+
+
+
+
+
+
+
+/*========= END FOOTER ===========*/
 
 
 
