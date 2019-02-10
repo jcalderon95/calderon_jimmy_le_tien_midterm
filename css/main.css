@@ -79,33 +79,51 @@ body
 	flex-direction: column;
 }
 
+.welcomeCon
+{
+	width: 780px;
+	margin: 0 auto;
+	margin-top: 120px;
+    animation: yourAnimation 2s 1 0s ease;
+    margin-bottom: 100px;
+}
+
+@keyframes yourAnimation{
+    0%{
+        transform: translateY(12%);
+        opacity: 0;
+        }
+    100%{
+        transform: translateY(100);
+        opacity: 1;
+        }
+}
+
 #WelcomeText
 {
-	width: 847px;
-	height: 70px;
 	font-size:64px;
 	font-family: 'Montserrat' ,Andale Mono, Helvetica, sans-serif;
 	font-weight: bold;
 	color: #fff;
 	text-align:center;
-	margin: 0 auto;
-	margin-top: 120px;
 	color: #ededed;
-
 }
+
 
 .HPwaterline
 {	
 	margin: 0 auto;
+	display: block;
 	margin-top:50px;
-/*	margin-left:425px;*/
+/*	margin-left:95px;*/
 }
 
 .HPwaterline2
 {
 	margin: 0 auto;
+	display: block;
 	margin-top: 50px;
-	margin-bottom: 100px;
+
 }
 
 #IntroText
@@ -128,6 +146,9 @@ body
 	margin-top:50px;
 
 }
+
+
+
 
 /*========End Home Section=============*/
 
@@ -188,8 +209,8 @@ body
 	width:80px;
 	height:80px;
 	margin-left: 30px; 
-
 }
+
 
 #aboutButton
 {
@@ -198,7 +219,6 @@ body
 	margin: 0 auto;
 	margin-top: 80px;
 	margin-bottom:90px;
-
 }
 
 #aboutButton a:hover
@@ -299,6 +319,7 @@ body
 	margin-bottom:20px;
 }
 
+
 /* ===========End of Membership===========*/
 
 /*============== Projects=============*/
@@ -328,7 +349,8 @@ body
 .waterlineProjects
 {	
 	
-	margin-left: 310px;
+	margin: 0 auto;
+	display: block; 
 	margin-bottom: 60px;
 }
 
@@ -550,7 +572,8 @@ body
 
 .contact img
 {
-	margin-left: 365px;
+	margin: 0 auto;
+	display: block;
 	margin-bottom: 80px;
 }
 
