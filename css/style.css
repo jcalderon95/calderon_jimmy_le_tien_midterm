@@ -1,0 +1,174 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+#timeline {
+	background: none;
+	font-family: Biko, serif;
+	color: #fff;
+	font-size: 18px;
+}
+
+a
+{
+	color: grey;
+	font-size: 28px;
+	font-family: Andale Mono, serif;	
+	text-decoration: none;
+	-webkit-transition: 0.5s;
+	-moz-transition: 0.5s;
+	-o-transition: 0.5s;
+	-ms-transition: 0.5s;
+	transition: 0.5s;
+}
+	a:hover, a.selected 
+{
+	color: green;
+}
+#timeline p
+{
+	color: black;
+}
+#timeline h2
+{
+	text-align: center;
+	font-family: Andale Mono, serif;
+	color: black;
+	text-shadow: #000 1px 1px 2px;
+	margin-bottom: 5px;
+}
+	h1 {
+		font-size: 18px;
+	}
+	h2 {
+		font-size: 14px;
+	}
+
+#timeline 
+{
+	width: 1500px;
+	height: 1000px;
+	overflow: hidden;
+	/*margin-left: 1100px;*/
+	margin-left:800px;
+	text-align: center;
+	position: relative;
+	background: url('../images/dots.png') -5px top repeat-y;
+}
+#dates 
+{
+	width: 120px;
+	height: 600px;
+	overflow: hidden;
+	float: left;
+}
+#dates li
+{
+	list-style: none;
+	font-family: Andale Mono, serif;
+	width: 100px;
+	height: 100px;
+	line-height: 100px;
+	font-size: 24px;
+	padding-left: 10px;
+}
+#dates a 
+{
+	line-height: 38px;
+	padding-bottom: 10px;
+}
+#dates .selected 
+{
+	font-size: 38px;
+}
+		
+#issues 
+{
+	width: 700px;
+	height: 600px;
+	overflow: hidden;
+	float: left;
+	padding-top: 200px;
+}	
+/*This is where the all click display*/
+#issues li 
+{
+	width: 900px;
+	height: 1000px;
+	color:red;
+	list-style: none;
+    text-align: center; 
+
+}
+#issues li.selected img 
+{
+	-webkit-transform: scale(1.1,1.1);
+	-moz-transform: scale(1.1,1.1);
+	-o-transform: scale(1.1,1.1);
+	-ms-transform: scale(1.1,1.1);
+	transform: scale(1.1,1.1);
+}
+#issues li img 
+{
+	// float: left;
+    width: 100px; // add
+	margin: 50px 30px 10px 10px;
+
+	-webkit-transition: all 2s ease-in-out;
+	-moz-transition: all 2s ease-in-out;
+	-o-transition: all 2s ease-in-out;
+	-ms-transition: all 2s ease-in-out; 
+	transition: all 2s ease-in-out;
+	-webkit-transform: scale(0.7,0.7);
+	-moz-transform: scale(0.7,0.7);
+	-o-transform: scale(0.7,0.7);
+	-ms-transform: scale(0.7,0.7);
+	transform: scale(0.7,0.7);
+}
+#issues li h2
+{
+	color: green;
+	font-size: 48px;
+	text-align: center;
+	text-shadow: #000 1px 1px 2px;
+}
+#issues li p 
+{
+	font-size: 14px;
+	margin: 10px 20px;
+	font-weight: normal;
+	line-height: 22px;
+					
+}
+			/*This is the arrow*/
+
+#next, #prev 
+{
+	position: absolute;
+	font-size: 70px;
+	width: 100px;
+	height: 100px;
+	background-position: 0 -44px;
+	background-repeat: no-repeat;
+	text-indent: -9999px;
+	overflow: hidden;
+}
+#next:hover, #prev:hover 
+{
+	background-position:  0 0;
+}
+#next 
+{
+	bottom: 0; 
+	background-image: url('../images/next.png');
+} 
+#prev 
+{
+	top: 0;
+	background-image: url('../images/prev.png');
+}
+#next.disabled, #prev.disabled 
+{
+	opacity: 0.2;
+}

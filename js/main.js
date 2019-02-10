@@ -1,12 +1,17 @@
-//create a pifckel jar, label it as firstNam, put a string in it 
-var firstName = "Tien";
 
-//alert("Hello " + firstName);
-
-// modern js
-
-//alert(`Hello ${firstName} !!!`)
-
-//console.log(firstName);
 
 console.log("JavaScrip is linked up");
+
+
+
+console.log("JavaScrip is linked up");
+
+		$(function(){
+			$().timelinr({
+				orientation: 	'vertical',
+				issuesSpeed: 	300,
+				datesSpeed: 	100,
+				arrowKeys: 		'true',
+				startAt:		3
+			})
+		});
