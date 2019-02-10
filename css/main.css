@@ -716,7 +716,7 @@ body
 {
 	background-color: #303030;
 	padding-top: 50px;
-	padding-bottom: 80px;
+	padding-bottom: 50px;
 }
 
 footer
@@ -750,6 +750,30 @@ footer
 	margin-bottom: 15px;
 }
 
+.footerNav ul li , .footerLinks ul li
+{	
+	text-align: center;
+	margin-bottom: 15px;
+	font-family: Apple Symbols, Arial, sans-serif;
+	font-size: 20px;
+}
+
+.footerNav ul li a, .footerLinks ul li a
+{
+	color: #717172;
+	text-decoration: none;
+	font-weight: bold;
+	transition: all .3s ease-in;
+	font-size: 20px;
+
+}
+
+.footerNav ul li a:hover , .footerLinks ul li a:hover
+{
+	color: #00c15e;
+	border-bottom: solid 3px;
+	padding-bottom: 3px;
+}
 
 
 .footerLogo
@@ -762,15 +786,6 @@ footer
 
 
 
-.footerLinks a
-{
-	font-size: 25px;
-	font-family: Apple Symbols, Arial, sans-serif;
-	color: #717172;
-	text-decoration: none;
-	text-align: center;
-	padding-top: 10px;
-}
 
 
 
