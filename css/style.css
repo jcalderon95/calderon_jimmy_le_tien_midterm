@@ -13,7 +13,7 @@
 a
 {
 	color: grey;
-	font-size: 28px;
+	font-size: 18px;
 	font-family: Andale Mono, serif;	
 	text-decoration: none;
 	-webkit-transition: 0.5s;
@@ -47,11 +47,11 @@ a
 
 #timeline 
 {
-	width: 1500px;
-	height: 1000px;
+	width: 800px;
+	height: 600px;
 	overflow: hidden;
 	/*margin-left: 1100px;*/
-	margin-left:800px;
+	margin-left:400px;
 	text-align: center;
 	position: relative;
 	background: url('../images/dots.png') -5px top repeat-y;
@@ -59,7 +59,7 @@ a
 #dates 
 {
 	width: 120px;
-	height: 600px;
+	height: 500px;
 	overflow: hidden;
 	float: left;
 }
@@ -68,34 +68,33 @@ a
 	list-style: none;
 	font-family: Andale Mono, serif;
 	width: 100px;
-	height: 100px;
-	line-height: 100px;
-	font-size: 24px;
+	height: 80px;
+	font-size: 16px;
 	padding-left: 10px;
 }
-#dates a 
+/*#dates a 
 {
-	line-height: 38px;
-	padding-bottom: 10px;
-}
+	line-height: 2px;
+	padding-bottom: 5px;
+}*/
 #dates .selected 
 {
-	font-size: 38px;
+	font-size: 28px;
 }
 		
 #issues 
 {
-	width: 700px;
+	width: 500px;
 	height: 600px;
 	overflow: hidden;
 	float: left;
-	padding-top: 200px;
+	padding-top: 70px;
 }	
 /*This is where the all click display*/
 #issues li 
 {
 	width: 900px;
-	height: 1000px;
+	height: 900px;
 	color:red;
 	list-style: none;
     text-align: center; 
@@ -112,8 +111,8 @@ a
 #issues li img 
 {
 	// float: left;
-    width: 100px; // add
-	margin: 50px 30px 10px 10px;
+    width: 80px; // add
+	margin: 10px 10px 10px 10px;
 
 	-webkit-transition: all 2s ease-in-out;
 	-moz-transition: all 2s ease-in-out;
@@ -129,7 +128,7 @@ a
 #issues li h2
 {
 	color: green;
-	font-size: 48px;
+	font-size: 38px;
 	text-align: center;
 	text-shadow: #000 1px 1px 2px;
 }
@@ -138,7 +137,7 @@ a
 	font-size: 14px;
 	margin: 10px 20px;
 	font-weight: normal;
-	line-height: 22px;
+	line-height: 10px;
 					
 }
 			/*This is the arrow*/
