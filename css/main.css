@@ -551,6 +551,7 @@ body
 	background-color: #e1eae6;
 	padding-top: 70px;
 	padding-bottom: 140px;
+	margin-top: 120px;
 }
 
 .contact
@@ -810,7 +811,7 @@ footer
 /*========= END FOOTER ===========*/
 
 /*Newsletter section*/
-#newsletter h1
+.newsHeader
 {
 	font-size: 65px;
 	font-family: 'Montserrat',Andale Mono, Helvetica, sans-serif;
