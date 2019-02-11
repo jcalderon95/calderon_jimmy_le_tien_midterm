@@ -713,6 +713,53 @@ body
 
 /* ============== END CONTACT SECTION ========*/
 
+/* =========== SPONSOR SECTION =========*/
+
+.sponsorCon
+{
+	background-color: #494949;
+}
+
+.sponsors
+{
+	width: 905px;
+	margin: 0 auto;
+	padding-top: 55px;
+	padding-bottom: 45px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.sponsorsImg
+{
+	width: 245px;
+}
+
+.sponsorsImg :nth-child(2)
+{
+	margin-top: 50px;
+}
+
+
+.sponsorsImg2
+{
+	width: 245px;
+}
+
+.sponsorsImg2 :nth-child(2)
+{
+	margin-top: 48px;
+}
+
+.anglingLogo
+{
+	display: block;
+	margin: 0 auto;
+}
+
+/* ============SPONSOR SECTION ========*/
+
 /*========= SOCIAL MEDIA ========-====*/
 
 .socialMediaCon
